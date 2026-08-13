@@ -14,7 +14,10 @@ const app = express();
 // Middleware
 app.use(
   cors({
-    origin: "*", // Allow all origins for the development demo
+    origin: [
+      "https://digitaltoolsell.pages.dev",
+      "http://localhost:5173", // Optional: useful for local frontend development
+    ], // Allow all origins for the development demo
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "x-admin-username", "x-admin-password"],
   }),
