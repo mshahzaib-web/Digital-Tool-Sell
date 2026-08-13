@@ -10,11 +10,9 @@ import {
   FiAward,
   FiMessageSquare,
   FiTrendingUp,
-  FiCheck,
   FiChevronDown,
   FiChevronUp,
   FiMail,
-  FiUsers,
   FiStar,
 } from "react-icons/fi";
 
@@ -203,7 +201,7 @@ const Home = () => {
             Our Services
           </span>
           <h2 className="text-3xl font-bold text-slate-800 dark:text-white">
-            The Smartest Way to Access Premium Software
+            The Smartest Way to Access Premium Software % Tools
           </h2>
           <p className="text-sm text-slate-500 dark:text-slate-400 max-w-xl mx-auto">
             We bridge the gap between premium tools and affordable rates,

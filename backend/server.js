@@ -337,7 +337,7 @@ app.use("/api", require("./routes/authRoutes"));
 
 // Root route
 app.get("/", (req, res) => {
-  res.send("VaultX API is running successfully.");
+  res.send("VaultX API is running successfully with Azure link.");
 });
 
 // Error handling middleware
